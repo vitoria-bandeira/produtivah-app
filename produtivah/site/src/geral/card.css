@@ -1,0 +1,24 @@
+/* Post-It Card Styling */
+.post-it-card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Arial", sans-serif;
+    color: #5c2b05; /* Text color */
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2), -1px -2px 4px rgba(255, 255, 255, 0.6) inset;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  /* Text Styling */
+  .post-it-text {
+    margin: 0;
+    word-wrap: break-word;
+  }
+  

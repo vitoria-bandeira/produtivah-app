@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #ffddc2;
+}
+
+.welcome-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+
+.logo {
+  font-size: 24px;
+
+  margin-bottom: 10px;
+  font-weight: bold;
+  
+}
+
+.welcome-image {
+  width: 310px;
+  height: auto;
+}
+
+.welcome-content h2 {
+  background-color: #FFDDC2;
+  color: #eb624a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.welcome-content p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.start-button {
+  background-color: #eb624a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #d25541;
+}

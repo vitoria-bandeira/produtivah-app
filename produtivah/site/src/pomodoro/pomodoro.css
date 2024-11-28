@@ -1,0 +1,108 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe5d5;
+  }
+  
+  .container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5c3d2e;
+    background-color: #ffe5d5;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    display: flex;
+    justify-content: space-between;
+   
+    
+    top: 10px;
+    background-color: #ffe5d5;
+  }
+
+  /* Novo botão de reiniciar */
+.restart-button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #4caf50; /* Verde */
+    color: #5c3d2e;
+  }
+  
+  .restart-button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .logo img {
+    width: 40px;
+  }
+  
+  .perfil {
+    width: 10px;
+  }
+  
+  /* Temporizador */
+  .timer-container {
+    margin-top: 50px;
+    background-color: #ffe5d5;
+  }
+  
+  .timer {
+    border: 2px solid #4caf50;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5d5;;
+
+  }
+  
+  .time {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .pause-button {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Botões de pausa */
+  .button-container {
+    margin-top: 30px;
+  }
+  
+  .short-break-button,
+  .long-break-button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .short-break-button {
+    background-color: #f4bf71;
+  }
+  
+  .long-break-button {
+    background-color: #f08080;
+  }
+  

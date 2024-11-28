@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fce9dc;
+  color: #5c2b05;
+}
+
+/* Page Layout */
+.task-editor {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+/* Header */
+.header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe3d5;
+  font-size: 1.5em;
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.profile-icon {
+  font-size: 1.5em;
+}
+
+/* Main Editor */
+.editor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Task Area */
+.task {
+
+  width: 133px;
+  flex: 2;
+  background-color: #9ec7a6;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.task-content {
+  width: 500px;
+  height:   300px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  resize: none;
+  background-color: #e8f5e9;
+}
+
+/* Controls */
+.controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.control-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.urgency label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background-color: #e57373;
+}
+
+.yellow {
+  background-color: #f6c453;
+}
+
+.green {
+  background-color: #81c784;
+}
+
+.text-options select {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.list-options input {
+  transform: scale(1.2);
+  margin-left: 5px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.save-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #5c2b05;
+  background-color: #f6c453;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.save-btn:hover {
+  background-color: #e6b148;
+}

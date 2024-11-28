@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fce9dc;
+  color: #5c2b05;
+}
+
+/* Profile Page Container */
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+
+/* Header */
+.header {
+ 
+  margin-right: 330px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #FFDDC2;
+
+ 
+  
+}
+
+.header img{
+  width: 230px;
+  cursor: pointer;
+  
+  
+}
+
+/* Profile Icon */
+.profile-icon {
+  font-size: 5rem;
+  color: #5c2b05;
+  margin: 20px 0;
+}
+
+/* Email Text */
+.email {
+  font-size: 1.2rem;
+  color: #5c2b05;
+  margin: 10px 0;
+}
+
+/* Logout Button */
+.logout-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f8a68d;
+  color: #5c2b05;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #f78463;
+}
